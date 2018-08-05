@@ -1,0 +1,11 @@
+[global]
+floatX=float32
+device=cuda0
+
+[nvcc]
+compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+
+[dnn]
+enabled=True
+include_path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include
+library_path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64
